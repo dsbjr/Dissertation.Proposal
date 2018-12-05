@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  4 DEC 2018 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  5 DEC 2018 14:32
 entering extended mode
 **./RuCl3.DissertationProposal.tex
 (RuCl3.DissertationProposal.tex
@@ -392,15 +392,15 @@ ractuousPopsicle.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/r
 oomTempGateSweepsAnfractuousPopsicle.png  used on input line 89.
 (pdftex.def)             Requested size: 256.73805pt x 183.16171pt.
-<C:/Users/dsbjr/Documents/DissertationProposal/images/activationEnergySweepsTaw
-dryOwl.jpg, id=18, 1757.56625pt x 1368.11125pt>
-File: C:/Users/dsbjr/Documents/DissertationProposal/images/activationEnergySwee
-psTawdryOwl.jpg Graphic file (type jpg)
-<use C:/Users/dsbjr/Documents/DissertationProposal/images/activationEnergySweep
-sTawdryOwl.jpg>
-Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/a
-ctivationEnergySweepsTawdryOwl.jpg  used on input line 94.
-(pdftex.def)             Requested size: 259.3604pt x 201.8886pt.
+<C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg, id
+=18, 409.27643pt x 337.00642pt>
+File: C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jp
+g Graphic file (type jpg)
+<use C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg
+>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/t
+hermalactivation.jpg  used on input line 94.
+(pdftex.def)             Requested size: 259.3604pt x 213.57503pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg, id=1
 9, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg 
@@ -410,9 +410,9 @@ Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
 ookle09VRHdata.jpg  used on input line 101.
 (pdftex.def)             Requested size: 259.3604pt x 194.52509pt.
  [3 <C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnf
-ractuousPopsicle.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/act
-ivationEnergySweepsTawdryOwl.jpg> <C:/Users/dsbjr/Documents/DissertationProposa
-l/images/Rookle09VRHdata.jpg>]
+ractuousPopsicle.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/the
+rmalactivation.jpg> <C:/Users/dsbjr/Documents/DissertationProposal/images/Rookl
+e09VRHdata.jpg>]
 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3spec
 tra.jpg, id=23, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl
@@ -423,8 +423,7 @@ Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/e
 xfoliatedvsbulkrucl3spectra.jpg  used on input line 126.
 (pdftex.def)             Requested size: 259.3604pt x 194.52509pt.
  [4 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
-spectra.jpg>] Excluding 'comment' comment. (RuCl3.DissertationProposal.bbl
-[5]
+spectra.jpg>] Excluding 'comment' comment. [5] (RuCl3.DissertationProposal.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 37--42
 \OT1/cmr/m/n/14.4 port Sig-na-ture of the Mag-netic
  []
@@ -492,13 +491,13 @@ m/n/14.4 ,
  []
 
 )
-Overfull \vbox (0.3pt too high) has occurred while \output is active []
+Overfull \vbox (7.3pt too high) has occurred while \output is active []
 
  [8]
 (RuCl3.DissertationProposal.aux) ) 
 Here is how much of TeX's memory you used:
  4817 strings out of 492973
- 73189 string characters out of 3135932
+ 73159 string characters out of 3135932
  159883 words of memory out of 3000000
  8584 multiletter control sequences out of 15000+200000
  18984 words of font info for 74 fonts, out of 3000000 for 9000
@@ -515,7 +514,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
 type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti12.pfb>
-Output written on RuCl3.DissertationProposal.pdf (8 pages, 703646 bytes).
+Output written on RuCl3.DissertationProposal.pdf (8 pages, 604231 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
