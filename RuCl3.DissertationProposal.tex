@@ -1,0 +1,198 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{multicol,caption}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[stable]{footmisc}
+\usepackage{comment}
+\usepackage{flushend}
+
+\bibliographystyle{unsrt}
+
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+\setlength{\columnsep}{0.25in}
+
+\raggedbottom
+
+\begin{document}
+\newcommand{\rucl}{RuCl\textsubscript{3} }
+\newcommand{\ruclnospace}{RuCl\textsubscript{3}}
+\graphicspath{C:/Users/dsbjr/Documents/DissertationProposal/images}
+\pagenumbering{gobble}
+
+\Large
+\begin{center}
+
+\Huge Dissertation Proposal: Gating the Two-Dimensional Spin-Assisted Mott Insulator and Proximate Kitaev Spin Liquid $\alpha$-Ruthenium Trichloride\\
+
+\hspace{10pt}
+
+% Author names and affiliations
+\large
+Derrick S. Boone, Jr.$^1$\\
+	
+\hspace{10pt}
+
+\small  
+$^1$ Ph.D. Candidate, Department of Applied Physics, Stanford University\\
+dsbjr@stanford.edu\\
+
+\end{center}
+
+\section*{Executive Summary}
+Quantum Spin Liquids (QSLs) are magnetic states of matter characterized by massive ground state entanglement without the emergence of long-range magnetic order, even at $T = 0$ K. These materials host exotic quasiparticle excitations (e.g., Majorana fermions) and, upon the addition of charge carriers, may demonstrate unconventional superconductivity. I have tried to add carriers to the proximate Kitaev spin liquid $\alpha$-ruthenium trichloride using ionic liquid gating, but have been unsuccessful to date. I hypothesize that any added charge in \rucl localizes and therefore cannot affect its properties. I propose testing this hypothesis using Raman spectroscopy and transport measurements.
+
+\begin{multicols}{2}
+
+
+\section{Objectives}
+\begin{itemize}
+	\item Measure thermal activation energy and resistivity of \rucl as a function of charge added by conventional, solid electrolyte, and ionic liquid gating.
+	\item Measure Raman spectra of \rucl under ambient conditions as a function of charge added by conventional, solid electrolyte, and ionic liquid gating.
+	\item One (or more) of the following:
+	
+	(1) Observe an electronic phase transition in \ruclnospace, 
+	
+	(2) Observe a doping-dependent feature in the Raman spectra that is related to charge localization, or 
+	
+	(3) Measure carrier density as a function of doping to place a lower bound on the carrier density required to induce a phase transition.
+\end{itemize}
+
+\section{Motivation}
+Quantum Spin Liquids (QSLs) are states of a magnetic systems showing massive entanglement and correlation between spins without associated long-range magnetic order or spontaneous symmetry breaking, even at $T = 0$ K. 
+
+QSLs have attracted research attention as these states host fractionalized excitations with nonabelian statistics \cite{Balents2010} which are relevant to quantum computation. QSLs may also be related to an unconventional form of superconductivity originally proposed by Anderson \cite{Lee2008}. $\alpha$-ruthenium trichloride (hereafter RuCl\textsubscript{3}) is a leading candidate material for having a ground state described as a Kitaev QSL, an exactly solvable quantum spin liquid state arising from anisotropic exchange interactions on a honeycomb lattice \cite{Kitaev2006}.
+
+I propose to investigate the electronic structure of \rucl using various doping techniques, transport measurements, and Raman spectroscopy to either induce an electronic phase transition or show that one does not occur within some range of carrier density.
+
+\section{Literature Review}
+Measurements of \rucl are consistent with it being a 2D material \cite{Kim2015a} and a spin-assisted Mott insulator \cite{Plumb2014}, with either thermally-activated band conduction and electron charge carriers \cite{Rojas1983}, or variable range hopping conduction \cite{Mashhadi2018}. Measurements of the band gap in \rucl fall into two broad categories. Scanning tunneling spectroscopy and thermal activation of conductivity suggest a value for $E_{G}$ between of around 0.2 eV \cite{Binotto1971,Rojas1983,Ziatdinov2016}. Other measurements report larger gaps, including electron spectroscopy (between 1.2 eV and 1.9 eV \cite{Koitzsch2016,Zhou2016,Sinn2016}), and optical methods (between 0.2 eV and 1.2 eV \cite{Reschke2017,Pollini1996,Sandilands2016}). Calculations expect a gap between 0.05 eV and 1 eV  \cite{Sarikurt2017,Kim2015}.
+
+Magnetically, \rucl is a paramagnet above its N{\'e}el temperature of 7 K; below 7 K it orders in an antiferromagnetic zigzag phase \cite{Sears2015}. Magnetic excitations above the N{\'e}el temperature, as observed by neutron scattering and raman scattering \cite{Banerjee2016,Sandilands2015}, are consistent with predictions for a Kitaev QSL, suggesting that \rucl is a proximate spin liquid.
+
+\rucl displays several phase transitions. At approximately 150K, \rucl  undergoes a hysteretic phase transition from a rhombohedral to a monoclinic crystal structure \cite{Kubota2015,Ziatdinov2016,Glamazda2017,Reschke2017}. In addition to the N{\'e}el ordering at 7 K, another magnetic transition occurs at 14 K in some samples due to stacking faults \cite{Banerjee2016}. Under application of an in-plane magnetic field greater than $H_{c} \approx 7$ T, the antiferromagnetic phase is suppressed and the ground state becomes a field-induced disordered state. \cite{Hentrich2017,Wolter2017,Banerjee2017,Wang2017,Baek2017}. Measurements of the excitations of this disordered state by neutron scattering, microwave absorption, and thermal conductivity suggest this state is a field-induced quantum spin liquid \cite{Banerjee2016,Wellm2017,Kasahara2018}. Recently, a novel type of field-induced spin liquid state in \rucl was identified \cite{Lampen-Kelley2018}.
+
+There have been several previous attempts to dope \rucl and other QSL materials and candidates. Zhou did not observe a phase transition when doping \rucl by intercalation of charge donors or evaporating them onto the surface of bulk \rucl \cite{Zhou2016}. However, the absence of a phase transition in Zhou's measurements may be due to insufficient surface doping or lattice distortions caused by intercalation. Efforts to chemically dope Herbertsmithite \cite{Kelly2016} and the QSL candidate LiZn$_{2-x}$Mo$_{3}$O$_{8}$ \cite{Sheckelton2015} also did not show any phase transitions, though again lattice distortions cannot be ruled out. Notably, first principles density functional calculations suggest electrons added to a Kagome lattice-type quantum spin liquid will become localized due to lattice distortions \cite{Liu2018}.
+
+\section{Previous Work}
+
+Samples with thicknesses from bulk to tens of nanometers measured in the DGG lab were found to have resistivity and thermal activation energies approximately consistent with the literature \cite{Rojas1983}. When the surface of \rucl is protected by a thin layer of hexagonal boron nitride and an ionic liquid gate (DEME-TFSI) is applied, I continued to find simply activated conduction and small variations in room temperature resistance and thermal activation energy.
+
+\begin{Figure}
+\centering
+  {\includegraphics[width=0.98\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnfractuousPopsicle}\label{fig:f1}}
+  \captionof{figure}{Room temperature ionic liquid gate sweeps}
+\end{Figure}
+
+\begin{Figure}  
+  {\includegraphics[width=0.99\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/activationEnergySweepsTawdryOwl}\label{fig:f2}}
+  \captionof{figure}{Thermal activation measurements with ionic liquid applied}
+\end{Figure}
+
+A thin (3 nm) sample of \rucl displayed variable range hopping rather than simply activated conduction, with a thermal activation energy in the high temperature limit of 53 meV, consistent with previously published work for thin flakes of \rucl \cite{Mashhadi2018}. Applying an ionic liquid gate to this thin sample made only small changes to its properties. This is the only sample I have measured (one of ten) that shows variable range hopping.
+
+\begin{Figure}
+		{\includegraphics[width=0.99\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg}\label{fig:f3}}
+  \captionof{figure}{Resistance-temperature curve for exfoliated \rucl sample showing variable range hopping}
+\end{Figure}
+
+\section{Research and Methodology}
+
+My previous measurements suggest that charge carriers added to \rucl cannot be observed using transport, even if the doping method does not alter the chemistry or lattice structure. Further, a review of the literature suggests that (1) charge induced in \rucl and other frustrated magnetic QSL candidates does not result in significant change in their transport properties and (2) induced charges may localize in these materials, preventing any electronic phase transitions. I think the charge I have added to \rucl localizes and is therefore invisible to transport measurements.
+
+DFT calculations by Liu suggest that added charge is localized by forming polarons bound to particular lattice sites \cite{Liu2018}. Specifically, electrostatic interactions cause the lattice around an added charge carrier to relax, creating a local potential well that immobilizes the charge carrier. This lattice relaxation is predicted to cause changes in bond lengths, which should result in shifts or new features in the phonon spectrum of the material. I propose to find evidence of localization by looking for a doping-dependent feature in the Raman spectrum of \rucl doped by several different methods.
+
+\subsection{Doping Methods}
+
+I plan on using three methods of doping: conventional gating using a metal gate and a dielectric like silicon dioxide, solid electrolyte gating using a substrate like lanthanum fluoride, and ionic liquid gating using an ionic liquid like DEME-TFSI. These three methods provide overlapping ranges of carrier density and will allow me to rule out electrochemical effects. In effect, conventional gating should not have any electrochemical effects, and if measurements are consistent between conventional gating and either or both solid electrolyte or ionic liquid gating, then we can have some confidence that the solid electrolyte and ionic liquid methods do not have electrochemical effects either.
+
+I plan on determining the charge density by calculating the capacitance or measuring the integrated current transient for all the doping methods. Hall measurements on \ruclnospace, which in highly insulating, have been challenging.
+
+\subsection{Transport Measurements}
+
+I will measure the resistivity of exfoliated \rucl as a function of temperature and gate voltage for the three doping methods (i.e., effectively taking a family of R-T curves for different methods and gate voltages). From these data I will extract activation energies. I will confirm that there are only minor changes in transport properties as a function of gate voltage.
+
+\subsection{Raman Measurements}
+
+I will measure the Raman spectra of exfoliated \rucl samples doped by conventional, solid electrolyte, and ionic liquid gating. Raman measurements will be made on the Horiba Labram in SNC under ambient (room temperature, 1 atm) conditions. Raman spectra of bulk and exfoliated \rucl are similar, indicating that the exfoliation process does not change the crystal structure.
+
+\begin{Figure}
+		{\includegraphics[width=0.99\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3spectra.jpg}\label{fig:f4}}
+  \captionof{figure}{Raman spectra for exfoliated and bulk \rucl samples, offset for clarity}
+\end{Figure}
+
+\subsection{Experimental Controls}
+
+I will use MoS$_{2}$ as a positive experimental control. Monolayer MoS$_{2}$ undergoes a metal-insulator transition at a carrier density of approximately 1 x $10^{13}$ cm$^{-2}$ \cite{Radisavljevic2013}, readily achievable using ionic liquid gating. Using the same fabrication methods I will use for other samples, I will show that ionic liquid gating induces the expected metal-insulator transition in MoS$_{2}$, verifying that the technique works.
+
+\subsection{Outcomes}
+
+This series of measurements has several possible outcomes, discussed below
+
+\subsubsection{Observe an electronic transition using transport}
+This is the ideal outcome; however, it's unlikely given previous measurements. If I do not observe an electronic transition then:
+
+\subsubsection{Observe a doping-dependent feature in Raman spectra}
+I think this is the most likely outcome. In this case, I would forward the Raman spectra I've measured to a DFT collaborator (TBD) to determine if the Raman shift is consistent with localization. If I do not observe a doping-dependent feature then:
+
+\subsubsection{Do not observe a doping-dependent feature in Raman spectra}
+This is the least desirable outcome. If I don't observe a feature in Raman, that could mean either (1) the localization distortion is not Raman active, (2) the density of localized states is much smaller than the induced density, or (3) localization does not occur. I would rule out (1) with DFT and (2) by looking at the measured carrier density. Then I would conclude that neither localization nor any electronic transitions happen below the highest measured carrier density.
+
+\section{Risks}
+
+\subsection{Electrochemistry}
+Electrochemistry between the ionic liquid, ohmic contacts, and \rucl could confuse the measured or calculated carrier density induced in the \ruclnospace. To minimize any electrochemical effects, I will dry the ionic liquid prior to use and carefully monitor the leakage current during measurement.
+
+\subsection{Large Raman Background}
+The solid electrolyte or ionic liquid may have features in their Raman spectra that could obscure a localization features. To minimize this risk, I will use the thinnest layer of ionic liquid possible and minimize the noise by taking multiple spectra.
+
+\begin{comment}
+\subsubsection{Fabrication}
+
+The notional fabrication process will be:
+
+\begin{itemize}
+	\item Exfoliate \rucl using scotch tape onto 300 nm SiO\textsubscript{2} on Si chips using O\textsubscript{2} plasma and heat
+	\item Select and characterize flakes using optical and atomic force microscopy
+	\item Write and evaporate bond pads and coplanar gate using optical lithography (ML3 direct write system in flex cleanroom)
+	\item Write and develop ohmic contact pattern via electron beam lithography
+	\item Argon milling to reduce contact resistance
+	\item Evaporate Ti/Au contacts
+	\item Deposit thin layer of alumina dielectric
+	\item Dry liftoff
+\end{itemize}
+
+\subsubsection{Measurement}
+
+The notional measurement process will be:
+
+\begin{itemize}
+	\item Measure resistivity as a function of temperature at zero field without ionic liquid applied
+	\item Measure R\textsubscript{xx} and R\textsubscript{xy} as a function of temperature without ionic liquid applied
+	\item Measure R\textsubscript{xx} and R\textsubscript{xy} as a function of temperature and gate voltage
+\end{itemize}
+
+\end{comment}
+
+
+\section{Timeframe}
+I plan to complete these measurements by 1 March 2018 and to apply for graduation in June. I have successfully taken several Raman spectra and have experience with cryogenic transport measurements and ionic liquid gating. A notional schedule is below:
+
+\begin{itemize}
+	\item December 2018: Qualify Raman measurement process and take Raman Data
+	\item January - February 2018: Take transport data 
+	\item March - June 2018: Write and submit dissertation
+\end{itemize}
+
+
+\bibliography{C:/Users/dsbjr/Documents/DissertationProposal/RuCl3Bibliography}
+
+\end{multicols}
+
+\end{document}
