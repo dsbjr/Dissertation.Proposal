@@ -104,28 +104,30 @@ A thin (3 nm) sample of \rucl displayed variable range hopping rather than simpl
 
 \section{Research and Methodology}
 
-My previous measurements suggest that charge carriers added to \rucl cannot be observed using transport, even if the doping method does not alter the chemistry or lattice structure. Further, a review of the literature suggests that (1) charge induced in \rucl and other frustrated magnetic QSL candidates does not result in significant change in their transport properties and (2) induced charges may localize in these materials, preventing any electronic phase transitions. I think the charge I have added to \rucl localizes and is therefore invisible to transport measurements.
+My previous measurements suggest that charge carriers added to \rucl do not cause substantial changes in transport properties, even if the doping method does not alter the chemistry or lattice structure. Further, a review of the literature suggests that (1) charge induced in \rucl and other frustrated magnetic QSL candidates does not result in significant change in their transport properties and (2) induced charges may localize in these materials, preventing any electronic phase transitions. I think the charge I have added to \rucl localizes and therefore transport properties remain largely unchanged.
 
 DFT calculations by Liu suggest that added charge is localized by forming polarons bound to particular lattice sites \cite{Liu2018}. Specifically, electrostatic interactions cause the lattice around an added charge carrier to relax, creating a local potential well that immobilizes the charge carrier. This lattice relaxation is predicted to cause changes in bond lengths, which should result changes in the Raman spectrum (I would expect peak broadening and/or a shift in peak position). I propose to find evidence of localization by looking for a doping-dependent feature in the Raman spectrum of \rucl using ionic liquid gating.
 
 \subsection{Doping Method}
 
-Ionic liquid gating uses an electrically polarized molten salt to induce a high charge density at the surface of a material of interest. The potential at the surface is proportional to the ratio of the ion charge to the size of the anion or cation in the ionic liquid. Because the anion and cation size is $\mathcal{O}$(1 nm), the electric field at the interface is high enough to induce charge densities of $\mathcal{O}$(10$^{14}$ cm$^{-2}$). Ionic liquid gating has been used to demonstrate phase transitions in other two dimensional materials
+Ionic liquid gating uses an electrically polarized molten salt to induce a high charge density at the surface of a material of interest. The potential at the surface is proportional to the ratio of the ion charge to the size of the anion or cation. Because the anion and cation size is $\mathcal{O}$(1 nm), the electric field at the interface is high enough to induce charge densities of $\mathcal{O}$(10$^{14}$ cm$^{-2}$). Ionic liquid gating has been used to demonstrate phase transitions and investigate the structure of other materials\cite{Braga2012,Ueno2008}.
 
-I plan on determining the charge density by calculating the capacitance or measuring the integrated current transient for all the doping methods. Hall measurements on \ruclnospace, which in highly insulating, have been challenging.
-
-\subsection{Transport Measurements}
-
-I will measure the resistivity of exfoliated \rucl as a function of temperature and gate voltage for the three doping methods (i.e., effectively taking a family of R-T curves for different methods and gate voltages). From these data I will extract activation energies. I will confirm that there are only minor changes in transport properties as a function of gate voltage.
+I will measure the charge density by integrating the current applied to the ionic liquid and measuring the area optically. Hall measurements on \ruclnospace, which is highly insulating, have been challenging.
 
 \subsection{Raman Measurements}
 
-I will measure the Raman spectra of exfoliated \rucl samples doped by conventional, solid electrolyte, and ionic liquid gating. Raman measurements will be made on the Horiba Labram in SNC under ambient (room temperature, 1 atm) conditions. Raman spectra of bulk and exfoliated \rucl are similar, indicating that the exfoliation process does not change the crystal structure.
+I will measure the Raman spectra of exfoliated \rucl samples through an ionic liquid. Raman measurements will be made on the Horiba Labram in SNC under ambient (room temperature, 1 atm) conditions. I have confirmed that the Raman spectra of bulk and exfoliated \rucl are similar at thicknesses greater than 10 nm, as previously identified in the literature.
 
 \begin{Figure}
 		{\includegraphics[width=0.99\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3spectra.jpg}\label{fig:f4}}
   \captionof{figure}{Raman spectra for exfoliated and bulk \ruclnospace, offset for clarity}
 \end{Figure}
+
+\subsection{Transport Measurements}
+
+Thermal activation energy extracted from resistance-temperature curves of \rucl3 at fixed ionic liquid voltages show only minor changes as a function of gate voltage. However, room temperature gate sweeps show some small repeatable structure, which may be related to charge localization.
+
+I will make in-situ resistivity measurements of exfoliated \rucl3 while measuring Raman spectra. I will compare changes in resistivity to changes in Raman spectra as a function of gate voltage and draw conclusions about localization from the comparison.
 
 \subsection{Experimental Controls}
 
@@ -134,9 +136,6 @@ I will use MoS$_{2}$ as a positive experimental control. Monolayer MoS$_{2}$ und
 \subsection{Outcomes}
 
 This series of measurements has several possible outcomes, discussed below
-
-\subsubsection{Observe an electronic transition using transport}
-This is the ideal outcome; however, it's unlikely given previous measurements. If I do not observe an electronic transition then:
 
 \subsubsection{Observe a doping-dependent feature in Raman spectra}
 I think this is the most likely outcome. In this case, I would forward the Raman spectra I've measured to a DFT collaborator (TBD) to determine if the Raman shift is consistent with localization. If I do not observe a doping-dependent feature then:
@@ -150,9 +149,8 @@ This is the least desirable outcome. If I don't observe a feature in Raman, that
 Electrochemistry between the ionic liquid, ohmic contacts, and \rucl could confuse the measured or calculated carrier density induced in the \ruclnospace. To minimize any electrochemical effects, I will dry the ionic liquid prior to use and carefully monitor the leakage current during measurement.
 
 \subsection{Large Raman Background}
-The solid electrolyte or ionic liquid may have features in their Raman spectra that could obscure a localization features. To minimize this risk, I will use the thinnest layer of ionic liquid possible and minimize the noise by taking multiple spectra.
+The ionic liquid may have features in its Raman spectra that could obscure localization features. Accordingly, I have identified an ionic liquid (DEME-BF4) with no Raman features in the region of interest. To further reduce the impact of an ionic liquid Raman background, I will use the thinnest layer of ionic liquid possible and minimize the noise by taking multiple spectra.
 
-\begin{comment}
 \subsubsection{Fabrication}
 
 The notional fabrication process will be:
@@ -160,12 +158,11 @@ The notional fabrication process will be:
 \begin{itemize}
 	\item Exfoliate \rucl using scotch tape onto 300 nm SiO\textsubscript{2} on Si chips using O\textsubscript{2} plasma and heat
 	\item Select and characterize flakes using optical and atomic force microscopy
-	\item Write and evaporate bond pads and coplanar gate using optical lithography (ML3 direct write system in flex cleanroom)
-	\item Write and develop ohmic contact pattern via electron beam lithography
+	\item Write and develop bond pads and ohmic contact pattern via electron beam lithography
 	\item Argon milling to reduce contact resistance
 	\item Evaporate Ti/Au contacts
-	\item Deposit thin layer of alumina dielectric
-	\item Dry liftoff
+	\item Liftoff in Acetone
+	\item Apply measurement cell and wirebond
 \end{itemize}
 
 \subsubsection{Measurement}
@@ -173,21 +170,25 @@ The notional fabrication process will be:
 The notional measurement process will be:
 
 \begin{itemize}
-	\item Measure resistivity as a function of temperature at zero field without ionic liquid applied
-	\item Measure R\textsubscript{xx} and R\textsubscript{xy} as a function of temperature without ionic liquid applied
-	\item Measure R\textsubscript{xx} and R\textsubscript{xy} as a function of temperature and gate voltage
+	\item Measure Raman spectrum without ionic liquid applied
+	\item Measure Raman spectrum through grounded ionic liquid
+	\item Measure \rucl3 resistivity, gate current, and Raman spectra at various gate voltages in the electrochemical stability window of the ionic liquid. 
 \end{itemize}
 
-\end{comment}
-
-
 \section{Timeframe}
-I plan to complete these measurements buy March 2018 and to apply for graduation in June. I have successfully taken several Raman spectra and have experience with cryogenic transport measurements and ionic liquid gating. A notional schedule is below:
+I plan to graduate in June 2019. A notional schedule follows.
 
 \begin{itemize}
-	\item December 2018: Qualify Raman measurement process and take Raman Data
-	\item January - February 2018: Take transport data 
-	\item March - June 2018: Write and submit dissertation
+	\item Week of 7  January 2019: Test and measure with DEME-BF4 ionic liquid (complete)
+	\item Week of 14 January 2019: Test MoS$_{2}$ for metal-insulator transition
+	\item Week of 21 January 2019: Test measurement cell with Dante Zakhidov from Salleos group
+	\item 28 January to 4 March 2019: Prototype and refine measurement scheme
+	\item 4 March to 29 March 2019: Final measurements for publication/dissertation quality data using refinements from previous month
+	\item 30 March to 17 April 2019: Data analysis
+	\item 18 April to 16 May 2019: Write dissertation and submit to committee
+	\item Week of 27 May 2019: Dissertation defense
+	\item 6 June 2019: Submit dissertation to Stanford
+	\item 17 June 2019: Degree conferred	
 \end{itemize}
 
 

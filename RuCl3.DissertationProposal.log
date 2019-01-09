@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  8 JAN 2019 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  9 JAN 2019 11:24
 entering extended mode
 **./RuCl3.DissertationProposal.tex
 (RuCl3.DissertationProposal.tex
@@ -421,11 +421,10 @@ File: C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
 spectra.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/e
-xfoliatedvsbulkrucl3spectra.jpg  used on input line 126.
+xfoliatedvsbulkrucl3spectra.jpg  used on input line 122.
 (pdftex.def)             Requested size: 259.3604pt x 194.52509pt.
- [4]
-Excluding 'comment' comment. [5 <C:/Users/dsbjr/Documents/DissertationProposal/
-images/exfoliatedvsbulkrucl3spectra.jpg>] (RuCl3.DissertationProposal.bbl
+ [4 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
+spectra.jpg>] [5] (RuCl3.DissertationProposal.bbl [6]
 Underfull \hbox (badness 10000) in paragraph at lines 37--42
 \OT1/cmr/m/n/14.4 port Sig-na-ture of the Mag-netic
  []
@@ -435,7 +434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--42
 \OT1/cmr/m/n/14.4 Fluctuation-Structure Re-la-tion in
  []
 
-[6]
+
 Underfull \hbox (badness 5696) in paragraph at lines 70--76
 \OT1/cmr/m/n/14.4 Hur, Hi-toshi Sato, Byeong Gyu
  []
@@ -446,7 +445,7 @@ Underfull \hbox (badness 5939) in paragraph at lines 70--76
 by Pho-toe-
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 123--126
 []\OT1/cmr/m/n/14.4 Luke J Sandi-lands, Yao Tian,
  []
@@ -456,7 +455,7 @@ Underfull \hbox (badness 7415) in paragraph at lines 128--132
 []\OT1/cmr/m/n/14.4 Yumi Kub-ota, Hidekazu Tanaka,
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 139--146
 \OT1/cmr/m/n/14.4 Domenic Nowak, Anna Isaeva,
  []
@@ -471,7 +470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--146
 \OT1/cmr/m/n/14.4 Paula Lampen-Kelley, David G.
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 177--182
 \OT1/cmr/m/n/14.4 A. U. B. Wolter, M. Roslova,
  []
@@ -486,35 +485,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--189
 []\OT1/cmr/m/n/14.4 Y. Kasa-hara, T. Ohnishi,
  []
 
-[8]
-Underfull \hbox (badness 6842) in paragraph at lines 231--235
+
+Underfull \hbox (badness 6842) in paragraph at lines 243--247
 \OT1/cmr/m/n/14.4 layer MoS2.  \OT1/cmr/m/it/14.4 Na-ture Ma-te-ri-als\OT1/cmr/
 m/n/14.4 ,
  []
 
-) [9] (RuCl3.DissertationProposal.aux) ) 
+[9]) [10] (RuCl3.DissertationProposal.aux) ) 
 Here is how much of TeX's memory you used:
- 4819 strings out of 492973
- 73177 string characters out of 3135932
- 148891 words of memory out of 3000000
- 8586 multiletter control sequences out of 15000+200000
+ 4820 strings out of 492973
+ 73188 string characters out of 3135932
+ 148899 words of memory out of 3000000
+ 8587 multiletter control sequences out of 15000+200000
  18984 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,39p,1013b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
-Output written on RuCl3.DissertationProposal.pdf (9 pages, 606725 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on RuCl3.DissertationProposal.pdf (10 pages, 609271 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
