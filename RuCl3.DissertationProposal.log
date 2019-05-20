@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  10 MAY 2019 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  20 MAY 2019 12:53
 entering extended mode
 **./RuCl3.DissertationProposal.tex
 (RuCl3.DissertationProposal.tex
@@ -250,7 +250,14 @@ Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count115
 ))
-(RuCl3.DissertationProposal.aux)
+(RuCl3.DissertationProposal.aux
+
+LaTeX Warning: Label `fig:f4' multiply defined.
+
+
+LaTeX Warning: Label `fig:f5' multiply defined.
+
+)
 \openout1 = `RuCl3.DissertationProposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -265,8 +272,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-
-(C:\Users\dsbjr\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (C:\Users\dsbjr\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen143
@@ -373,13 +379,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
  [1
 
 {C:/Users/dsbjr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
@@ -390,10 +396,10 @@ g Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg
 >
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/t
-hermalactivation.jpg  used on input line 87.
+hermalactivation.jpg  used on input line 90.
 (pdftex.def)             Requested size: 154.47818pt x 127.19986pt.
 
-Underfull \hbox (badness 2744) in paragraph at lines 89--89
+Underfull \hbox (badness 2744) in paragraph at lines 92--92
 []\OT1/cmr/m/n/10.95 Figure 1: |Ther-mal ac-ti-va-
  []
 
@@ -404,7 +410,7 @@ fractuousPopsicle.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnf
 ractuousPopsicle.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/r
-oomTempGateSweepsAnfractuousPopsicle.png  used on input line 93.
+oomTempGateSweepsAnfractuousPopsicle.png  used on input line 96.
 (pdftex.def)             Requested size: 154.47818pt x 110.2047pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg, id=1
 9, 1053.9375pt x 790.45313pt>
@@ -412,66 +418,101 @@ File: C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg
 Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
-ookle09VRHdata.jpg  used on input line 99.
+ookle09VRHdata.jpg  used on input line 102.
 (pdftex.def)             Requested size: 154.47818pt x 115.84904pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []\OT1/cmr/m/n/10.95 Figure 3: |Resistance-
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 101--101
+Underfull \hbox (badness 8038) in paragraph at lines 104--104
 \OT1/cmr/m/n/10.95 temperature curve for ex-
  []
 
-[3 <C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg>
- <C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnfrac
-tuousPopsicle.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle
-09VRHdata.jpg>]
+[3] [4 <C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.
+jpg> <C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAn
+fractuousPopsicle.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/Ro
+okle09VRHdata.jpg>]
+<C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBulkGat
+ing.jpg, id=26, 771.1209pt x 590.205pt>
+File: C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBu
+lkGating.jpg Graphic file (type jpg)
+<use C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBul
+kGating.jpg>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/r
+ucl3-RamanSpectraBulkGating.jpg  used on input line 126.
+(pdftex.def)             Requested size: 154.47818pt x 118.22803pt.
+<C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.png, i
+d=27, 771.1209pt x 590.205pt>
+File: C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.p
+ng Graphic file (type png)
+<use C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.pn
+g>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
+uCl3_Pristine_Fit.png  used on input line 132.
+(pdftex.def)             Requested size: 154.47818pt x 118.22803pt.
+<C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Intercalat
+edFit.png, id=28, 771.1209pt x 590.205pt>
+File: C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Inter
+calatedFit.png Graphic file (type png)
+<use C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Interc
+alatedFit.png>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
+uCl3_DEME-BF4_IntercalatedFit.png  used on input line 138.
+(pdftex.def)             Requested size: 154.47818pt x 118.22803pt.
+ [5 <C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBul
+kGating.jpg> <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristi
+ne_Fit.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF
+4_IntercalatedFit.png>]
 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3spec
-tra.jpg, id=23, 1053.9375pt x 790.45313pt>
+tra.jpg, id=32, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl
 3spectra.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
 spectra.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/e
-xfoliatedvsbulkrucl3spectra.jpg  used on input line 131.
+xfoliatedvsbulkrucl3spectra.jpg  used on input line 170.
 (pdftex.def)             Requested size: 257.46104pt x 193.0898pt.
 <C:/Users/dsbjr/Documents/GitHub/Dissertation.Proposal/images/BgPeaksDisappear.
-jpg, id=24, 1135.99406pt x 670.75594pt>
+jpg, id=33, 1135.99406pt x 670.75594pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation.Proposal/images/BgPeaksDisap
 pear.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation.Proposal/images/BgPeaksDisapp
 ear.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation.Proposal/
-images/BgPeaksDisappear.jpg  used on input line 137.
+images/BgPeaksDisappear.jpg  used on input line 176.
 (pdftex.def)             Requested size: 257.46104pt x 152.01894pt.
- [4] [5 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkr
-ucl3spectra.jpg> <C:/Users/dsbjr/Documents/GitHub/Dissertation.Proposal/images/
-BgPeaksDisappear.jpg>] [6] (RuCl3.DissertationProposal.bbl
-[7] [8] [9]) [10] [11] (RuCl3.DissertationProposal.aux) ) 
+ [6 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
+spectra.jpg> <C:/Users/dsbjr/Documents/GitHub/Dissertation.Proposal/images/BgPe
+aksDisappear.jpg>] [7] [8]
+(RuCl3.DissertationProposal.bbl [9] [10] [11]) [12]
+(RuCl3.DissertationProposal.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4827 strings out of 492973
- 73620 string characters out of 3135932
- 147041 words of memory out of 3000000
- 8592 multiletter control sequences out of 15000+200000
+ 4846 strings out of 492973
+ 74805 string characters out of 3135932
+ 148128 words of memory out of 3000000
+ 8608 multiletter control sequences out of 15000+200000
  18984 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,39p,1013b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on RuCl3.DissertationProposal.pdf (11 pages, 734760 bytes).
+ 41i,9n,39p,1541b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on RuCl3.DissertationProposal.pdf (12 pages, 1504057 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
