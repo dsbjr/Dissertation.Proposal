@@ -2,6 +2,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{gensymb}
 \usepackage{cite}
 \usepackage{graphicx}
 \usepackage{multicol,caption}
@@ -56,17 +57,19 @@ Measure the following:
 	\item Transport properties of \rucl as a function of doping by electrolyte gating (in progress).
 	\item Interlayer separation as a function of doping by electrolyte gating using x-ray diffraction (in progress)
 \end{itemize}
-To conclude:
-\begin{itemize}
-	\item Up to an induced hole density of $10^{14}$ $\frac{1}{\text{cm}^2}$ without lattice disorder, \rucl remains an insulator (i.e., does not undergo an electronic phase transition).
-\end{itemize}
+To conclude one of the following:
+\begin{enumerate}
+	\item Observe an electronic phase transition in \rucl as a function of doping.
+	\item Do not observe an electronic phase transition in \rucl as a function of doping and identify lattice distortions from Raman spectroscopy or XRD that disturb Kitaev interactions.
+	\item Do not observe an electronic phase transition or lattice distortions as a function of doping, and rule out the presence of either below a particular charge density.
+\end{enumerate}
 
 \section{Motivation}
 Quantum Spin Liquids (QSLs) are ground states of magnetic systems showing massive entanglement and correlation between spins without associated long-range magnetic order or spontaneous symmetry breaking, even at $T = 0$ K. 
 
-QSLs have attracted research attention as these states host fractionalized excitations with nonabelian statistics \cite{Balents2010} which are relevant to quantum computation. QSLs may also be related to an unconventional form of superconductivity originally proposed by Anderson \cite{Lee2008}. $\alpha$-ruthenium trichloride (hereafter RuCl\textsubscript{3}) is a leading candidate material for having a ground state described as a Kitaev QSL, an exactly solvable quantum spin liquid state arising from anisotropic exchange interactions on a honeycomb lattice \cite{Kitaev2006}.
+QSLs have attracted research attention as these states host fractionalized excitations with nonabelian statistics \cite{Balents2010} which are relevant to quantum computation. QSLs may also be related to an unconventional form of superconductivity originally proposed by Anderson \cite{Lee2008}. $\alpha$-ruthenium trichloride (hereafter RuCl\textsubscript{3}), a Mott insulator, is a leading candidate material for having a ground state described as a Kitaev QSL, an exactly solvable quantum spin liquid state arising from anisotropic exchange interactions on a honeycomb lattice \cite{Kitaev2006}.
 
-I propose investigating \rucl using electrolyte gating, transport, Raman spectroscopy, and x-ray diffraction to rule out the presence of an electronic phase transition below a certain charge density.
+Adding charge to Mott insulators has resulted in exotic states, most notably high-temperature superconductors. Further, the connection between \rucl and fractionalized excitations makes it an exciting material to study the effect of doping. I therefore propose investigating \rucl using electrolyte gating, transport, Raman spectroscopy, and X-ray diffraction. I have selected these tools to add charge to the material while simultaneously characterizing the electronic phase (transport) and changes to the lattice (Raman spectroscopy and X-ray diffraction).
 
 \section{Literature Review}
 Measurements of \rucl are consistent with it being a 2D material \cite{Kim2015a} and a spin-assisted Mott insulator \cite{Plumb2014}, with either thermally-activated band conduction and electron charge carriers \cite{Rojas1983}, or variable range hopping conduction \cite{Mashhadi2018}. Measurements of the band gap in \rucl fall into two broad categories. Scanning tunneling spectroscopy and thermal activation of conductivity suggest a value for $E_{G}$ between of around 0.2 eV \cite{Binotto1971,Rojas1983,Ziatdinov2016}. Other measurements report larger gaps, including electron spectroscopy (between 1.2 eV and 1.9 eV \cite{Koitzsch2016,Zhou2016,Sinn2016}), and optical methods (between 0.2 eV and 1.2 eV \cite{Reschke2017,Pollini1996,Sandilands2016}). Calculations expect a gap between 0.05 eV and 1 eV  \cite{Sarikurt2017,Kim2015}.
@@ -80,6 +83,48 @@ Raman studies of bulk and exfoliated \rucl show a spectrum that is thickness ind
 When exposed to ions in solution, cations easily intercalate between the van der Waals layers where two chlorine planes meet. Applying an electric potential to \rucl in an ion-containing solution can reversibly drive cations in and out of the spaces between layers. For intercalated \rucl, X-ray diffraction measurements show the increase in interlayer separation is consistent with the size of the intercalated ion \cite{Steffen1986,Schollhorn1983}.
 
 There have been several previous attempts to dope \rucl and other QSL materials and candidates. Zhou did not observe a phase transition when doping \rucl by intercalation of charge donors or evaporating them onto the surface of bulk \rucl \cite{Zhou2016}. For similarly-intercalated \ruclnospace , Koitzsch did not observe a phase transition but instead posited that the intercalation caused charge ordering that blocked nearest-neighbor Kitaev interactions \cite{Koitzsch2017a}. However, the absence of a phase transition in these measurements may be due to insufficient surface doping (for Zhou's measurement) or lattice distortions caused by intercalation (for both Zhou and Koitzsch). Efforts to chemically dope Herbertsmithite \cite{Kelly2016} and the QSL candidate LiZn$_{2-x}$Mo$_{3}$O$_{8}$ \cite{Sheckelton2015} also did not show any phase transitions, though again lattice distortions cannot be ruled out. Notably, first principles density functional calculations suggest electrons added to a Kagome lattice-type quantum spin liquid will become localized due to lattice distortions \cite{Liu2018}.
+
+
+\section{Research and Methodology}
+
+A review of the literature suggests that \rucl does not undergo an electronic phase transition upon doping. However, previous attempts to dope \rucl have not approached the charge density possible with electrolyte gating, or have involved a technique that necessarily disorders the lattice. These lattice distortions may affect the Kitaev interactions that make \rucl a QSL, and therefore prevent investigation of properties related to QSLs.
+
+Electrolyte gating provides an opportunity to heavily dope \rucl without disordering the lattice. Therefore, measuring transport with electrolyte gating allows characterizing the electronic phase as a function of doping independent of the disorder inherent in other methods. Raman spectroscopy and XRD can be used to verify that electrolyte gating does not introduce disorder to the lattice.
+
+DFT calculations by Liu suggest that doped \rucl does not undergo a phase transition because the added charge localizes by forming polarons bound to lattice sites \cite{Liu2018}. Specifically, electrostatic interactions cause the lattice around an added charge carrier to relax, creating a local potential well that immobilizes the charge carrier. This lattice relaxation is predicted to cause changes in bond lengths, which should result in changes in the Raman spectrum (I would expect peak broadening and/or a shift in peak position). Further, measurements by Koitzsch suggest that charge doping may be correlated with lattice distortions that block Kitaev interactions \cite{Koitzsch2017a}.
+
+I propose drawing one of the following conclusions:
+\begin{enumerate}
+	\item Observe an electronic phase transition in \rucl as a function of doping.
+	\item Do not observe an electronic phase transition in \rucl as a function of doping and identify lattice distortions from Raman spectroscopy or XRD that disturb Kitaev interactions.
+	\item Do not observe an electronic phase transition or lattice distortions as a function of doping, and rule out the presence of either below a particular charge density.
+\end{enumerate}
+	
+
+\subsection{Doping Method}
+
+Electrolyte gating uses an electrically polarized molten salt to induce a high charge density at the surface of a material of interest. The potential at the surface is proportional to the ratio of the ion charge to the size of the anion or cation. Because the anion and cation size is $\mathcal{O}$(1 nm), the electric field at the interface is high enough to induce charge densities of $\mathcal{O}$(10$^{14}$ cm$^{-2}$). Ionic liquid gating has been used to demonstrate phase transitions and investigate the structure of other 2D materials\cite{Braga2012,Ueno2008}.
+
+I will measure the charge density by either (1) integrating the current applied to the ionic liquid and measuring the area visually or (2) electrochemical impedance spectroscopy. Hall measurements on \ruclnospace, which is highly insulating, have been challenging.
+
+\subsection{Raman Measurements}
+
+I will measure the Raman spectra of exfoliated \rucl samples through an electrolyte. Raman measurements will be made on the Horiba Labram in SNC under ambient (room temperature, 1 atm) conditions on devices fabricated for this particular purpose. Raan peaks shifting, broadening, or disappearing could indicate lattice distortions or phase changes. I have confirmed that the Raman spectra of bulk and exfoliated \rucl are similar at thicknesses greater than 10 nm (Figure 4), as previously identified in the literature.
+
+\begin{figure}
+\centering
+	{\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3spectra.jpg}\label{fig:f4}}
+  \captionsetup{width=0.5\textwidth}
+  \captionof{figure}{Raman spectra for exfoliated and bulk \ruclnospace, offset for clarity}
+\end{figure}
+
+\subsection{Transport Measurements}
+
+I will measure thermal activation energies extracted from resistance-temperature curves of \rucl at fixed ionic liquid voltages in a DGG group cryostat. Phase changes could include a metal-insulator transition (identified by a change in sign of $\frac{d\rho}{dt}$), or an abrupt change in functional form or activation energy of $\rho(T)$.
+
+\subsection{X-ray Measurements}
+
+I will measure the diffraction pattern of pristine and electrolyte gated \rucl as a function of electrolyte gate voltage in the Stanford XRD lab. Changes to the interlayer separation or broadening of the associated peak could indicate latttice disorder or a phase change.
 
 \section{Previous Work in DGG Lab}
 
@@ -141,71 +186,42 @@ When exposed to electrolyte under ambient conditions, cations readily intercalat
 \end{minipage}
 \end{figure}
 
-
 \subsection{X-ray diffraction}
 
-
-\section{Research and Methodology}
-
-My previous measurements suggest that charge carriers added to \rucl do not cause substantial changes in transport properties, even if the doping method does not alter the chemistry or lattice structure. Further, a review of the literature suggests that (1) charge induced in \rucl and other frustrated magnetic QSL candidates does not result in significant change in their transport properties and (2) induced charges may localize in these materials, preventing any electronic phase transitions. I think the charge I have added to \rucl localizes and therefore transport properties remain largely unchanged.
-
-DFT calculations by Liu suggest that added charge is localized by forming polarons bound to particular lattice sites \cite{Liu2018}. Specifically, electrostatic interactions cause the lattice around an added charge carrier to relax, creating a local potential well that immobilizes the charge carrier. This lattice relaxation is predicted to cause changes in bond lengths, which should result in changes in the Raman spectrum (I would expect peak broadening and/or a shift in peak position). I propose to find evidence of localization by looking for a doping-dependent feature in the Raman spectrum of \rucl using ionic liquid gating.
-
-\subsection{Doping Method}
-
-Ionic liquid gating uses an electrically polarized molten salt to induce a high charge density at the surface of a material of interest. The potential at the surface is proportional to the ratio of the ion charge to the size of the anion or cation. Because the anion and cation size is $\mathcal{O}$(1 nm), the electric field at the interface is high enough to induce charge densities of $\mathcal{O}$(10$^{14}$ cm$^{-2}$). Ionic liquid gating has been used to demonstrate phase transitions and investigate the structure of other 2D materials\cite{Braga2012,Ueno2008}.
-
-I will measure the charge density by integrating the current applied to the ionic liquid and measuring the area visually. Hall measurements on \ruclnospace, which is highly insulating, have been challenging.
-
-\subsection{Raman Measurements}
-
-I will measure the Raman spectra of exfoliated \rucl samples through an ionic liquid. Raman measurements will be made on the Horiba Labram in SNC under ambient (room temperature, 1 atm) conditions on devices fabricated for this particular purpose. I have confirmed that the Raman spectra of bulk and exfoliated \rucl are similar at thicknesses greater than 10 nm (Figure 4), as previously identified in the literature.
-
-My most recent measurements show that certain Raman features in ionic liquid-gated \rucl become broadened or invisible when a positive voltage is applied, and return when a negative voltage is applied (Figure 5). The switching behavior is repeatable and robust. I have observed this effect in three separate samples measured using two different gating methods/geometries. This effect may be related to localization or may be some kind of phase transition.
+X-ray diffraction (XRD) measurements show \rucl has an interlayer separation of about 5.6 \r{A} \cite{Schollhorn1983}. This interlayer separation shows up clearly in XRD measurements as a sharp peak near $2\theta = $ 15\degree, which I have observed here at Stanford.
 
 \begin{figure}
-\centering
-\begin{minipage}{0.5\textwidth}
-\centering
-	{\includegraphics[width=0.95\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3spectra.jpg}\label{fig:f4}}
-  \captionsetup{width=0.9\textwidth}
-  \captionof{figure}{Raman spectra for exfoliated and bulk \ruclnospace, offset for clarity}
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-\centering 
-  {\includegraphics[width=0.95\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation.Proposal/images/BgPeaksDisappear.jpg}\label{fig:f5}}
-  \captionsetup{width=0.9\textwidth}
-  \captionof{figure}{Raman spectra measured with in-situ ionic liquid gating (DEME-BF4), offset for clarity. Red arrows are a guide to the eye for features that depend on gate voltage}
-\end{minipage}
+ \centering
+	{\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/DissertationProposal/images/PristineRuCl3XRD.jpg}\label{fig:f4}}
+  \captionsetup{width=0.5\textwidth}
+  \captionof{figure}{X-ray diffractogram for pristine exfoliated \rucl measured at Stanford}
 \end{figure}
+
+\section{Remaining Measurements}
 
 \subsection{Transport Measurements}
 
-Thermal activation energies extracted from resistance-temperature curves of \rucl at fixed ionic liquid voltages show only minor changes as a function of gate voltage. However, room temperature gate sweeps show some small repeatable structure, which may be related to charge localization.
+Previous measurements were most likely intercalated, regardless of applied gate voltage. Accordingly, I will redo these measurements by biasing the electrolyte at large negative gate voltage and verifying the removal of the ions from the lattice before allowing the sample to pump down.
 
-I will make in-situ resistivity measurements of exfoliated \rucl while measuring Raman spectra. I will compare changes in resistivity to changes in Raman spectra as a function of gate voltage and draw conclusions about localization from the comparison.
+A collaborator has provided a Polymer Ionic Liquid (PIL), a new type of electrolyte with a sterically hindered cation that should not intercalate. I will also measure transport using a PIL to investigate electron doping without lattice disorder.
 
-\subsection{Experimental Controls}
+\subsection{X-ray Measurements}
 
-I will use MoS$_{2}$ as a positive experimental control. Monolayer MoS$_{2}$ undergoes a metal-insulator transition at a carrier density of approximately 1 x $10^{13}$ cm$^{-2}$ \cite{Radisavljevic2013}, readily achievable using ionic liquid gating. Using the same fabrication methods I will use for other samples, I will show that ionic liquid gating induces the expected metal-insulator transition in MoS$_{2}$, verifying that the technique works.
-
-\subsection{Outcomes}
-
-This series of measurements has several possible outcomes, discussed below
-
-\subsubsection{Observe a doping-dependent feature in Raman spectra}
-I think this is the most likely outcome. In this case, I would forward the Raman spectra I've measured to a DFT collaborator (TBD) to determine if the Raman shift is consistent with localization. If I do not observe a doping-dependent feature then:
-
-\subsubsection{Do not observe a doping-dependent feature in Raman spectra}
-This is the least desirable outcome. If the changes I've observed are experimental artifacts, that could mean either (1) the density of localized states is much smaller than the charge density that should be induced by the ionic liquid, or (2) localization does not occur. I would rule out (1) by looking at the measured carrier density, perhaps by pursuing Hall measurements, even though they are challenging. Then I would conclude that neither localization nor any electronic transitions happen below the highest measured carrier density.
+I will measure X-ray diffraction patterns for electrolyte-gated \rucl as a function of gate voltage. I will confirm that the cations intercalate and that at large negative gate voltage the interlayer spacing returns to its pristine value.
 
 \section{Risks}
 
 \subsection{Electrochemistry}
-Electrochemistry between the ionic liquid, ohmic contacts, and \rucl could confuse the measured or calculated carrier density induced in the \ruclnospace. To minimize any electrochemical effects, I will dry the ionic liquid prior to use, use only materials known not to react with the ionic liquid, and carefully monitor the leakage current during measurement.
+
+Electrochemistry between the electrolyte, ohmic contacts, and \rucl could confuse the measured or calculated carrier density induced in the \ruclnospace. To minimize any electrochemical effects, I will dry the electrolyte prior to use, use only materials known not to react with the electrolyte, and carefully monitor the leakage current during measurement.
 
 \subsection{Large Raman Background}
-The ionic liquid may have features in its Raman spectra that could obscure localization features. Accordingly, I have identified an ionic liquid (DEME-BF4) with no Raman features in the region of interest. To further reduce the impact of an ionic liquid Raman background, I will use the thinnest layer of ionic liquid possible and minimize the noise by taking multiple spectra.
+
+The electrolyte may have features in its Raman spectra that could obscure localization features. Accordingly, I have identified an ionic liquid (DEME-BF4) with no Raman features in the region of interest. To further reduce the impact of an ionic liquid Raman background, I will use the thinnest layer of ionic liquid possible and minimize the noise by taking multiple spectra.
+
+\subsection{X-ray measurements}
+
+X-ray measurements may show that the interlayer spacing does not return to its original value after the ions are removed from the interlayer spaces (the peak may correspond to a different interlayer separation or be broadened - indicated a range of interlayer separations). I think this is unlikely, given previous measurements on this material. However, all Kitaev interactions are present in a single layer of \ruclnospace , and the disorder in a single layer should be captured by Raman spectroscopy, which does not show any peak shifts or broadening. Therefore, I will include the change or disorder in interlayer spacing as a potential cause for the absence of a transition, which is a novel conclusion. 
 
 \subsubsection{Fabrication}
 
@@ -214,34 +230,21 @@ The notional fabrication process will be:
 \begin{itemize}
 	\item Exfoliate \rucl using scotch tape onto 300 nm SiO\textsubscript{2} on Si chips using O\textsubscript{2} plasma and heat
 	\item Select and characterize flakes using optical and atomic force microscopy
-	\item Write and develop bond pads and ohmic contact pattern via electron beam lithography
+	\item Write and develop bond pads and ohmic contact pattern via electron beam or optical lithography
 	\item Argon milling to reduce contact resistance
 	\item Evaporate Ti/Au contacts
 	\item Liftoff in Acetone
 	\item Wirebond and apply ionic liquid
 \end{itemize}
 
-\subsubsection{Measurement}
-
-The notional measurement process will be:
-
-\begin{itemize}
-	\item Measure Raman spectrum without ionic liquid applied
-	\item Measure Raman spectrum through grounded ionic liquid
-	\item Measure \rucl resistivity, gate current, and Raman spectra at various gate voltages in the electrochemical stability window of the ionic liquid. 
-\end{itemize}
-
 \section{Timeframe}
-I plan to graduate in June 2019. A notional schedule follows.
+I plan to graduate in September 2019. A notional schedule follows.
 
 \begin{itemize}
-	\item 28 January to 4 March 2019: Prototype and refine measurement scheme
-	\item 4 March to 29 March 2019: Final measurements for publication/dissertation quality data using refinements from previous month
-	\item 30 March to 17 April 2019: Data analysis
-	\item 18 April to 16 May 2019: Write dissertation and submit to committee
-	\item Week of 27 May 2019: Dissertation defense
-	\item 6 June 2019: Submit dissertation to Stanford
-	\item 17 June 2019: Degree conferred	
+	\item May 2019: Finish remaining measurements
+	\item June - July 2019: Writing and defense preparation
+	\item Week of 22 July 2019: Dissertation defense
+	\item 26 September 2019: Degree conferred	
 \end{itemize}
 
 
