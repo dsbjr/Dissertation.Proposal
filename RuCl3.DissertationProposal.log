@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  20 MAY 2019 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  24 MAY 2019 09:32
 entering extended mode
 **./RuCl3.DissertationProposal.tex
 (RuCl3.DissertationProposal.tex
@@ -255,7 +255,7 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 ))
 (RuCl3.DissertationProposal.aux
 
-LaTeX Warning: Label `fig:f4' multiply defined.
+LaTeX Warning: Label `fig:f6' multiply defined.
 
 
 LaTeX Warning: Label `fig:f4' multiply defined.
@@ -394,113 +394,99 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
  [1
 
 {C:/Users/dsbjr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3spec
-tra.jpg, id=23, 1053.9375pt x 790.45313pt>
+tra.jpg, id=24, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl
 3spectra.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
 spectra.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/e
-xfoliatedvsbulkrucl3spectra.jpg  used on input line 116.
+xfoliatedvsbulkrucl3spectra.jpg  used on input line 113.
 (pdftex.def)             Requested size: 271.0125pt x 203.25749pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg, id
-=24, 409.27643pt x 337.00642pt>
+=25, 409.27643pt x 337.00642pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jp
 g Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg
 >
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/t
-hermalactivation.jpg  used on input line 135.
-(pdftex.def)             Requested size: 154.47818pt x 127.19986pt.
-
-Underfull \hbox (badness 2744) in paragraph at lines 137--137
-[]\OT1/cmr/m/n/10.95 Figure 2: |Ther-mal ac-ti-va-
- []
-
+hermalactivation.jpg  used on input line 131.
+(pdftex.def)             Requested size: 271.0125pt x 223.17056pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnfract
-uousPopsicle.png, id=25, 1308.38812pt x 933.4875pt>
+uousPopsicle.png, id=26, 1308.38812pt x 933.4875pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAn
 fractuousPopsicle.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnf
 ractuousPopsicle.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/r
-oomTempGateSweepsAnfractuousPopsicle.png  used on input line 141.
-(pdftex.def)             Requested size: 154.47818pt x 110.2047pt.
+oomTempGateSweepsAnfractuousPopsicle.png  used on input line 137.
+(pdftex.def)             Requested size: 271.0125pt x 193.34607pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg, id=2
-6, 1053.9375pt x 790.45313pt>
+7, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg 
 Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
-ookle09VRHdata.jpg  used on input line 147.
-(pdftex.def)             Requested size: 154.47818pt x 115.84904pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]\OT1/cmr/m/n/10.95 Figure 4: |Resistance-
- []
-
-
-Underfull \hbox (badness 8038) in paragraph at lines 149--149
-\OT1/cmr/m/n/10.95 temperature curve for ex-
- []
-
-[5 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3s
-pectra.jpg>] [6 <C:/Users/dsbjr/Documents/DissertationProposal/images/thermalac
-tivation.jpg> <C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGat
-eSweepsAnfractuousPopsicle.png> <C:/Users/dsbjr/Documents/DissertationProposal/
-images/Rookle09VRHdata.jpg>]
+ookle09VRHdata.jpg  used on input line 143.
+(pdftex.def)             Requested size: 271.0125pt x 203.25749pt.
+ [5 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
+spectra.jpg>]
+[6 <C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg>
+ <C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnfrac
+tuousPopsicle.png>] [7 <C:/Users/dsbjr/Documents/DissertationProposal/images/Ro
+okle09VRHdata.jpg>]
 <C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBulkGat
-ing.jpg, id=33, 771.1209pt x 590.205pt>
+ing.jpg, id=38, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBu
 lkGating.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBul
 kGating.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/r
-ucl3-RamanSpectraBulkGating.jpg  used on input line 171.
-(pdftex.def)             Requested size: 154.47818pt x 118.22803pt.
+ucl3-RamanSpectraBulkGating.jpg  used on input line 164.
+(pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.png, i
-d=34, 771.1209pt x 590.205pt>
+d=39, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.p
 ng Graphic file (type png)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.pn
 g>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
-uCl3_Pristine_Fit.png  used on input line 177.
-(pdftex.def)             Requested size: 154.47818pt x 118.22803pt.
+uCl3_Pristine_Fit.png  used on input line 170.
+(pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Intercalat
-edFit.png, id=35, 771.1209pt x 590.205pt>
+edFit.png, id=40, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Inter
 calatedFit.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Interc
 alatedFit.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
-uCl3_DEME-BF4_IntercalatedFit.png  used on input line 183.
-(pdftex.def)             Requested size: 154.47818pt x 118.22803pt.
+uCl3_DEME-BF4_IntercalatedFit.png  used on input line 176.
+(pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/PristineRuCl3XRD.jpg, id=
-36, 771.1209pt x 590.205pt>
+41, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/DissertationProposal/images/PristineRuCl3XRD.jpg
  Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/PristineRuCl3XRD.jpg>
 
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/P
-ristineRuCl3XRD.jpg  used on input line 195.
+ristineRuCl3XRD.jpg  used on input line 187.
 (pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
- [7 <C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBul
-kGating.jpg> <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristi
-ne_Fit.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF
-4_IntercalatedFit.png>] [8 <C:/Users/dsbjr/Documents/DissertationProposal/image
-s/PristineRuCl3XRD.jpg>] [9]
-(RuCl3.DissertationProposal.bbl [10] [11] [12]) [13]
+ [8 <C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBul
+kGating.jpg>] [9 <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pr
+istine_Fit.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEM
+E-BF4_IntercalatedFit.png>] [10 <C:/Users/dsbjr/Documents/DissertationProposal/
+images/PristineRuCl3XRD.jpg>] [11]
+(RuCl3.DissertationProposal.bbl [12] [13] [14]) [15]
 (RuCl3.DissertationProposal.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -513,7 +499,7 @@ Here is how much of TeX's memory you used:
  8651 multiletter control sequences out of 15000+200000
  18984 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,39p,1541b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,39p,1778b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
@@ -524,9 +510,9 @@ amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on RuCl3.DissertationProposal.pdf (13 pages, 1983698 bytes).
+Output written on RuCl3.DissertationProposal.pdf (15 pages, 1984847 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
