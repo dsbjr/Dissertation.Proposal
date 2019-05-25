@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  24 MAY 2019 09:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  25 MAY 2019 16:27
 entering extended mode
 **./RuCl3.DissertationProposal.tex
 (RuCl3.DissertationProposal.tex
@@ -253,14 +253,7 @@ Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count115
 ))
-(RuCl3.DissertationProposal.aux
-
-LaTeX Warning: Label `fig:f6' multiply defined.
-
-
-LaTeX Warning: Label `fig:f4' multiply defined.
-
-)
+(RuCl3.DissertationProposal.aux)
 \openout1 = `RuCl3.DissertationProposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -420,7 +413,7 @@ g Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/thermalactivation.jpg
 >
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/t
-hermalactivation.jpg  used on input line 131.
+hermalactivation.jpg  used on input line 132.
 (pdftex.def)             Requested size: 271.0125pt x 223.17056pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnfract
 uousPopsicle.png, id=26, 1308.38812pt x 933.4875pt>
@@ -429,7 +422,7 @@ fractuousPopsicle.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/roomTempGateSweepsAnf
 ractuousPopsicle.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/r
-oomTempGateSweepsAnfractuousPopsicle.png  used on input line 137.
+oomTempGateSweepsAnfractuousPopsicle.png  used on input line 139.
 (pdftex.def)             Requested size: 271.0125pt x 193.34607pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg, id=2
 7, 1053.9375pt x 790.45313pt>
@@ -437,7 +430,7 @@ File: C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg
 Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/Rookle09VRHdata.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
-ookle09VRHdata.jpg  used on input line 143.
+ookle09VRHdata.jpg  used on input line 146.
 (pdftex.def)             Requested size: 271.0125pt x 203.25749pt.
  [5 <C:/Users/dsbjr/Documents/DissertationProposal/images/exfoliatedvsbulkrucl3
 spectra.jpg>]
@@ -452,7 +445,7 @@ lkGating.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBul
 kGating.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/r
-ucl3-RamanSpectraBulkGating.jpg  used on input line 164.
+ucl3-RamanSpectraBulkGating.jpg  used on input line 168.
 (pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.png, i
 d=39, 771.1209pt x 590.205pt>
@@ -461,7 +454,7 @@ ng Graphic file (type png)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pristine_Fit.pn
 g>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
-uCl3_Pristine_Fit.png  used on input line 170.
+uCl3_Pristine_Fit.png  used on input line 175.
 (pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Intercalat
 edFit.png, id=40, 771.1209pt x 590.205pt>
@@ -470,7 +463,7 @@ calatedFit.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEME-BF4_Interc
 alatedFit.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/R
-uCl3_DEME-BF4_IntercalatedFit.png  used on input line 176.
+uCl3_DEME-BF4_IntercalatedFit.png  used on input line 182.
 (pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
 <C:/Users/dsbjr/Documents/DissertationProposal/images/PristineRuCl3XRD.jpg, id=
 41, 771.1209pt x 590.205pt>
@@ -479,38 +472,35 @@ File: C:/Users/dsbjr/Documents/DissertationProposal/images/PristineRuCl3XRD.jpg
 <use C:/Users/dsbjr/Documents/DissertationProposal/images/PristineRuCl3XRD.jpg>
 
 Package pdftex.def Info: C:/Users/dsbjr/Documents/DissertationProposal/images/P
-ristineRuCl3XRD.jpg  used on input line 187.
+ristineRuCl3XRD.jpg  used on input line 194.
 (pdftex.def)             Requested size: 271.0125pt x 207.43039pt.
  [8 <C:/Users/dsbjr/Documents/DissertationProposal/images/rucl3-RamanSpectraBul
 kGating.jpg>] [9 <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_Pr
 istine_Fit.png> <C:/Users/dsbjr/Documents/DissertationProposal/images/RuCl3_DEM
 E-BF4_IntercalatedFit.png>] [10 <C:/Users/dsbjr/Documents/DissertationProposal/
-images/PristineRuCl3XRD.jpg>] [11]
-(RuCl3.DissertationProposal.bbl [12] [13] [14]) [15]
-(RuCl3.DissertationProposal.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+images/PristineRuCl3XRD.jpg>]
+(RuCl3.DissertationProposal.bbl [11] [12] [13] [14]) [15]
+(RuCl3.DissertationProposal.aux) ) 
 Here is how much of TeX's memory you used:
- 4892 strings out of 492973
- 75356 string characters out of 3135932
- 148327 words of memory out of 3000000
- 8651 multiletter control sequences out of 15000+200000
+ 4894 strings out of 492973
+ 75372 string characters out of 3135932
+ 148134 words of memory out of 3000000
+ 8653 multiletter control sequences out of 15000+200000
  18984 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,39p,1778b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on RuCl3.DissertationProposal.pdf (15 pages, 1984847 bytes).
+ 41i,7n,39p,1753b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb>
+Output written on RuCl3.DissertationProposal.pdf (15 pages, 1984690 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
